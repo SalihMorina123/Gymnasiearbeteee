@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inika', serif !important;
+    padding-top: 56px;
+    padding-bottom: 100px;
+}
+
+.brand{
+    width: 100PX;
+    position: absolute;
+    top: 17px;
+    transform: translateX(-50%);
+    left: 50%;
+}
+
+a{
+    font-size: 20px;
+    font-weight: 500;
+    color: black !important;
+}
+
+#img-c{
+    width: 100% !important;
+    height: 70vh !important;
+    object-fit: cover !important;
+}
+
+#carouselExampleIndicators{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+hr{
+   width: 90%;
+   position: absolute;
+   transform: translateX(-50%);
+   left: 50%;
+   height: 2.3px !important;
+}
+
+
+.img-dis{
+    width: 100% !important;
+    border-radius: 20px;
+    height: 100%;
+    object-fit: cover;
+}
+
+#info-1-c{
+    margin-top: 10rem;
+}
+
+
+#info-2-c{
+    margin-top: 10rem;
+    margin-left: auto;
+}
+
+#plugga-btn{
+    text-decoration: none;
+    background-color: #FFF5D1;
+    color: #8C6D00 !important;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 15px 60px;
+    border-radius: 20px;
+    border: 2px solid #BEBEBE;
+    transition: background-color 0.4s ease-in-out;
+}
+
+
+#plugga-btn:hover{
+    background-color: #dbcc97;
+}
+
+
+@media only screen and (max-width: 1920px)  {
+    #info-2-c{
+        margin-top: 10rem;
+        margin-left: 240px;
+    }
+}
+
+@media only screen and (max-width: 1900px)  {
+    #info-2-c{
+        margin-top: 10rem;
+        margin-left: auto;
+    }
+}
+
+@media only screen and (max-width: 600px)  {
+    #info-2-c{
+        margin-top: 10rem;
+        margin-left: auto;
+    }
+
+    #plugga-btn{
+        text-decoration: none;
+        background-color: #FFF5D1;
+        padding: 15px 50px !important;
+        border-radius: 20px;
+        border: 2px solid #BEBEBE;
+        position: relative !important;
+        bottom: -60px;
+       
+    }
+}
+
+@media only screen and (max-width: 992px)  {
+    #plugga-btn{
+        text-decoration: none;
+        background-color: #FFF5D1;
+        padding: 15px 60px;
+        border-radius: 20px;
+        border: 2px solid #BEBEBE;
+        position: relative !important;
+        bottom: -60px;
+       
+    }
+    
+}
